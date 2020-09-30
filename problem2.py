@@ -19,7 +19,8 @@ Enter a number: 4
 a = input("Enter a number: ").strip()
 a = int(a)
 b = a 
-while a < b*12:
-    a = a + 4
+print(b)
+while a < b*11:
+    a = a + b
     print(a)
    
