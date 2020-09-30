@@ -18,8 +18,8 @@ Access granted
 Access denied
 """
 
-username = input("Enter a username: ").strip
-password = input("Enter a password: ").strip
+username = input("Enter a username: ").strip()
+password = input("Enter a password: ").strip()
 b = 0
 
 
@@ -29,8 +29,8 @@ while (username != "admin" and password != "12345"):
     if (b == 3):
         print("Program will close, too many attempts!")
         break 
-    username = input("Enter a username: ").strip
-    password = input("Enter a password: ").strip
+    username = input("Enter a username: ").strip()
+    password = input("Enter a password: ").strip()
 
 if (username == "admin" and password == "12345"):
     print("Access granted")   

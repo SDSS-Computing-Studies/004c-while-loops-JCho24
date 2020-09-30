@@ -20,12 +20,12 @@ That is an even integer
 
 """
 
-a = input("Enter a number: ")
+a = input("Enter a number: ").strip()
 a = float(a)
 
 while (a % 2 != 0):
     print("That is not an even integer")
-    a = input("Enter a number: ")
+    a = input("Enter a number: ").strip()
 
     break
 
