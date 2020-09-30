@@ -17,16 +17,16 @@ a = 1
 b = 1
 c = 2
 d = 3
-print(a)
-print(b)
-print(c)
-print(d)
+print(a,end=" ") 
+print(b,end=" ")
+print(c,end=" ")
+print(d,end=" ")
 while d < 100:
     a = b
     b = c
     c = d
     d = c + b
-    print(d)
+    print(d,end=" ")
 
 
 
