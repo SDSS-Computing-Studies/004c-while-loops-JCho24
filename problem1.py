@@ -17,3 +17,21 @@ outputs:
 Access granted
 Access denied
 """
+
+username = input("Enter a username: ")
+password = input("Enter a password: ")
+b = 0
+
+
+while (username != "admin" and password != "12345"):
+    b = b + 1
+    print("Access denied")
+    if (b == 3):
+        print("Program will close, too many attempts!")
+        break 
+    username = input("Enter a username: ")
+    password = input("Enter a password: ")
+
+if (username == "admin" and password == "12345"):
+    print("Access granted")   
+
