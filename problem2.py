@@ -20,6 +20,6 @@ a = input("Enter a number: ").strip()
 a = int(a)
 b = a 
 while a < b*12:
-    a = a + 4
+    a = a + b
     print(a)
    
